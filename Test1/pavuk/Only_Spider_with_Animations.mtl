@@ -1,0 +1,85 @@
+# Blender MTL File: 'Only_Spider_with_Animations.blend'
+# Material Count: 7
+
+newmtl Material.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.413204 0.311263 0.221805
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl Material.007
+Ns 849.285036
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.500000 textures\\haar_detail_NRM.jpg
+
+newmtl Material.008
+Ns -0.000015
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.700000 textures\\haar_detail_NRM.jpg
+map_Kd -s 2.000000 2.000000 1.000000 textures\\Spinnen_Bein_tex_COLOR_
+map_Ks -s 2.000000 2.000000 1.000000 textures\\Spinnen_Bein_tex_2.jpg
+
+newmtl Material.008_Spinnen_Bein_tex.jpg
+Ns -0.000015
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Spinnen_Bein_tex.jpg
+map_Bump -bm 0.700000 textures\\haar_detail_NRM.jpg
+map_Ks -s 2.000000 2.000000 1.000000 textures\\Spinnen_Bein_tex_2.jpg
+
+newmtl Material.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.724827 0.724827 0.724827
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd textures\SH3.png
+map_Bump -bm 0.700000 textures\\haar_detail_NRM.jpg
+map_d -s 40.000000 1.000000 1.000000 textures\\SH3.png
+
+newmtl Material.009_NONE
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.724827 0.724827 0.724827
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Bump -bm 0.700000 textures\\haar_detail_NRM.jpg
+map_Kd -s 40.000000 1.000000 1.000000 textures\\SH3.png
+map_d -s 40.000000 1.000000 1.000000 textures\\SH3.png
